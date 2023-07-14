@@ -29,6 +29,7 @@ import tesla from "./company/accenture.jpeg";
 import carrent from "./splunk.png";
 import jobit from "./amazonfba.png";
 import tripguide from "./transf.jpg";
+import tyler from "./tyler.png";
 
 export {
   logo,
@@ -59,4 +60,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  tyler,
 };

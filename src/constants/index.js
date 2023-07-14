@@ -1,3 +1,4 @@
+import { useHref } from "react-router";
 import {
   mobile,
   backend,
@@ -23,7 +24,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  tyler,
 } from "../assets";
+import { Source } from "three";
 
 export const navLinks = [
   {
@@ -172,27 +175,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "pending...",
     name: "Tyler Ball",
-    designation: "CFO",
+    designation: "Senior VP",
     company: "Simply Smart Home",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: tyler
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "pending...",
+    name: "Jacob Fecunda",
+    designation: "CEO",
+    company: "Magnate Core",
+    image: "https://media.licdn.com/dms/image/D4E35AQFxmuE6eX-1Bg/profile-framedphoto-shrink_200_200/0/1671632226034?e=1689958800&v=beta&t=yF96AeQxDkKbexALcILdkrJGzgyStLl4IIqFQxq1pzA",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "pending...",
+    name: "TBD",
+    designation: "TBD",
+    company: "TBD",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/TBD-W.svg/2048px-TBD-W.svg.png",
   },
 ];
 
